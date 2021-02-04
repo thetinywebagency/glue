@@ -4,7 +4,7 @@
   "description": "A small front-end UI library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-sass --include-path scss src/scss/main.scss public/css/glue.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thetinywebagency/glue/issues"
   },
-  "homepage": "https://github.com/thetinywebagency/glue#readme"
+  "homepage": "https://github.com/thetinywebagency/glue#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
