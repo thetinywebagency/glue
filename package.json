@@ -4,7 +4,7 @@
   "description": "A small front-end UI library",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass --include-path scss src/scss/main.scss public/css/glue.css"
+    "build": "node-sass -w src/scss/glue.scss -o public/css"
   },
   "repository": {
     "type": "git",
