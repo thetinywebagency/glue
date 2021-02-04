@@ -1,0 +1,20 @@
+.grid {
+	&-container {
+		margin: 0 auto;
+		max-width: 1200px;
+	}
+
+	&-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	&-col {
+		flex-basis: 100%;
+
+		@media only screen and (min-width: 767px) {
+			flex: 1;
+		}
+	}
+}

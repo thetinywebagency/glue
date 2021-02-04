@@ -1,2 +1,14 @@
-.test {
-  color: #f0000; }
+.grid-container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.grid-col {
+  flex-basis: 100%; }
+  @media only screen and (min-width: 767px) {
+    .grid-col {
+      flex: 1; } }
